@@ -32,7 +32,7 @@ const Bio = () => {
 
   return (
     <div className="bio">
-      <StaticImage
+      <GatsbyImage
         className="bio-avatar"
         layout="fixed"
         formats={["auto", "webp", "avif"]}
